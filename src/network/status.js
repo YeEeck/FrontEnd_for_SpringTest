@@ -2,7 +2,7 @@ import { request } from "../network/request"
 
 export function getStatus() {
     return request({
-        url: "/http/getStatus",
+        url: "/getStatus",
         method: "GET",
     });
 }
@@ -81,7 +81,7 @@ export function fliterStatus({ name,
 
 export function getAbsence() {
     return request({
-        url: "/http/getAbsence",
+        url: "/getAbsence",
         method: "GET",
     });
 }
